@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(243, 173, 166);
+    margin: 0px;
+}
+.head{
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 50%;
+}
+.parent{
+    margin: auto;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+.box1{
+    background-color: navy;
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    transition: width 2s linear 0s;
+}
+.box1:hover{
+    width: 300px;
+    cursor: pointer;
+}
+.box2{
+    background-color: rgb(235, 50, 17);
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    transition: width 2s linear 0s, height 2s linear 0s;
+}
+.box2:hover{
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+}
+.box3{
+    background-color: rgb(93, 240, 9);
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    transition: width 2s linear 0s;
+}
+.box3:hover{
+    width: 300px;
+    cursor: pointer;
+}
+.box4{
+    background-color: maroon;
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    transition: width 2s ease 0s;
+}
+.box4:hover{
+    width: 300px;
+    cursor: pointer;
+}
+.box5{
+    background-color: rgb(24, 218, 224);
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    transition: width 2s ease-in 0s;
+}
+.box5:hover{
+    width: 300px;
+    cursor: pointer;
+}
+.box6{
+    background-color: rgb(238, 241, 15);
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    transition: width 2s ease-out 0s;
+}
+.box6:hover{
+    width: 300px;
+    cursor: pointer;
+}
+.box7{
+    background-color: rgb(240, 17, 166);
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    transition: width 2s ease-in-out 0s;
+}
+.box7:hover{
+    width: 300px;
+    cursor: pointer;
+}
+.footer{
+    font-size: 35px;
+    margin-left: 650px;
+}
